@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!--Partie css-->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="font-awesome.min.css">
+	<link rel="stylesheet" href="flexslider.css">
+	<link rel="stylesheet" href="style.css" />
+	<!--js-->
+	<!-- Librairie jquery globale-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!--Librairie carroussel-->
+	<script src="js/jquery.flexslider.min.js"></script>
+	<!--Utilisation de la fonction du carroussel-->
+	<script type="text/javascript">
+		$(window).on("load", function(){
+			$(".flexslider").flexslider({
+				directionNav:true,
+				controlNav:true
+			});
+		});
+	</script>
+	<title>Module 9 - Wolf Gang</title>
+</head>
+<body>
+
+	<header>
+		<img src="img/logo.svg" alt="Logo Wolf Gang"/>
+		<nav>
+			<ul>
+				<li><a href="#">Nos produits</a></li>
+				<li><a href="#">Nos tarifs</a></li>
+				<li><a href="#">Contactez-nous</a></li>			
+			</ul>
+		</nav>		
+	</header>
+
+	<main class="container">
+		<h2>DEVENEZ LE MOTARD DE LA MOTO AVEC WOLF'<span class="orange"> GANG<span/> !</h2>
+		<section class="slider">
+			<div class="flexslider">
+				<ul class="slider">
+					<li><img src="img/slider/1.jpg" alt="Photo du slider"/></li>
+					<li><img src="img/slider/2.jpg" alt="Photo du slider"/></li>
+					<li><img src="img/slider/3.jpg" alt="Photo du slider"/></li>
+				</ul>
+			</div>
+		</section>
+
+		<section id="Decouvrez">
+			<h2>DECOUVREZ <span class="orange">NOS MOTO<span/></h2>
+			<article>
+				<img src="img/team/1.jpg"/>
+				<h3><span class="orange">Moto #1</span></h3>
+				<span>texte</span>
+				<a href="#">En savoir plus</a>
+			</article>
+			<article>
+				<img src="img/team/2.jpg"/>
+				<h3><span class="orange">Moto #2</span></h3>
+				<a href="#">En savoir plus</a>
+			</article>
+			<article>
+				<img src="img/team/3.jpg"/>			
+				<h3><span class="orange">Moto #3</span></h3>
+				<a href="#">En savoir plus</a>
+			</article>
+			<article>
+				<img src="img/team/4.jpg"/>			
+				<h3><span class="orange">Moto #4</span></h3>
+				<a href="#">En savoir plus</a>
+			</article>
+		</section>
+
+		<section>
+			<h2>POUR NOUS CONNAITRE <span class="orange">PLUS EN DETAIL</span></h2>
+			<p>Texte</p>
+			<p>Vignettes</p>
+			<p>Vidéo sur la droite</p>
+		</section>
+
+		<section>
+			<p>Texte</p>
+			<p>Encore du texte</p>
+			<a href="#">Home</a>
+			<a href="#">About</a>
+			<a href="#">Clients</a>
+			<a href="#">Contact Us</a>
+		</section>
+
+	</main>
+
+	<footer>
+		<small id="licence">
+	    	<a rel="license" href="https://3wa.fr/propriete-materiel-pedagogique/"><img alt="Propriété de la 3W Academy" style="border-width:0" src="https://3wa.fr/wp-content/themes/3wa2015/img/logos/big.png" /></a><br /><span>Cet exercice</span> de <a href="https://3wa.fr">3W Academy</a> est mis à disposition <a rel="license" href="https://3wa.fr/propriete-materiel-pedagogique/">pour l'usage personnel des étudiants, Pas de Rediffusion - Attribution - Pas d'Utilisation Commerciale - Pas de Modification - International</a>.<br />Les autorisations au-delà du champ de cette licence peuvent être obtenues auprès de <a href="mailto:contact@3wa.fr" rel="cc:morePermissions">contact@3wa.fr</a>. Les maquettes ont été réalisées par <a href="http://www.justine-muller.fr">Justine Muller</a>.
+		</small>
+	</footer>
+ <!-- jQuery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+
+  <!-- FlexSlider -->
+  <script defer src="js/jquery.flexslider.js"></script>
+
+  <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+
+  <!-- Syntax Highlighter -->
+  <script type="text/javascript" src="js/shCore.js"></script>
+  <script type="text/javascript" src="js/shBrushXml.js"></script>
+  <script type="text/javascript" src="js/shBrushJScript.js"></script>
+
+  <!-- Optional FlexSlider Additions -->
+  <script src="js/jquery.easing.js"></script>
+  <script src="js/jquery.mousewheel.js"></script>
+  <script defer src="js/demo.js"></script>
+
+</body>
+</html>	
+	

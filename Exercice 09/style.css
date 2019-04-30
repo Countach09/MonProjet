@@ -1,0 +1,175 @@
+/*Global*/
+* {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	outline: none;
+}
+
+body {
+	background-color: #2F3534;
+	font-family: "Bodega Sans", Arial;
+	width: 100%;
+	font-size: 1.6rem;
+}
+
+a{
+	color: white;
+}
+
+/*---------------------*/
+/*Mise en page header*/
+header{
+	width: 100%;
+	height: 200px;
+	background-image: linear-gradient(130deg, white 50%, #696969 50%); /*coupe en 2 couleurs le header*/
+}
+
+header nav{
+	float: right;
+	height: 200px;
+}
+
+header li{
+	list-style-type: none;
+	padding: 0 10px;
+}
+
+header img{
+	float: left;
+	width: 200px;
+	margin: 30px 100px;
+}
+header nav a{
+	font-family: "Bodega Sans";
+	margin: 0 auto;
+	font-size: 1.6em;
+	color: white;
+	text-decoration: none;
+}
+
+/*-----------------------*/
+/*Mise en page de la section "Decouvrez"*/
+#Devenez{
+	width: 80%;
+	height: 300px;
+}
+
+/*-----------------------*/
+/*mise en page de la partie "découvrez nos moto"*/
+#Decouvrez{
+	width: 80%;
+	height: 500px;
+	margin: 0 auto;
+}
+
+#Decouvrez article{
+	display: inline-block;
+	background-color: white;
+	width: 200px;
+	height: 400px;
+	text-align: center;
+}
+
+#Decouvrez img{
+	width: 150px;
+}
+
+#Decouvrez a{
+	border: 1px solid #000000;
+	background-color: #FE7A06;
+	vertical-align: bottom;
+	margin: 0 auto;
+	display: block;
+	vertical-align: bottom;
+}
+
+#Decouvrez p{
+	/*margin-bottom: 130px;*/
+}
+
+/* LICENCE */
+#licence {
+    display: block;
+    text-align: center;
+    padding: 10px 25px;
+}
+
+#licence img {
+    width: 50px;
+}
+
+/*----------------------*/
+/*Déclaration de classes*/
+/*----------------------*/
+.container{
+	max-width: 1500px;
+	padding: 25px;
+	margin: 0 auto;
+}
+
+.orange{
+	color: #FF9D00;
+}
+
+.flexslider{
+	margin: 0;
+	border: 0;
+}
+
+.slider{
+	padding: 5px;
+	width: 100%;
+	height: 500px;
+}
+
+.slider li{
+	list-style-type: none;	
+}
+
+.slider img{
+	width: 100%;
+	height: 500px;
+}
+
+/*Déclaration de la police*/
+@font-face {
+ font-family: "Bodega Sans";
+ src: url("fonts/BodegaSans_Black.ttf");
+}
+
+/*version tablette*/
+/*@media screen and (min-width: 767px){
+
+}*/
+
+/*Version ordi*/
+@media screen and (min-width: 1025px){
+	.container {
+		max-width: 80%;
+		margin: 0 auto;
+	}
+
+	header img{
+		float: left;
+	}
+
+	header nav a {
+		display: block;
+		float: right;
+		/*width: 33%;*/
+	}
+
+	body{
+		font-size: 1.6rem;
+		width: : 80%;	
+	}
+
+	main{
+		max-width: 1500px;
+		display: block;
+	}
+
+	section{
+		display: block;
+	}
+}
